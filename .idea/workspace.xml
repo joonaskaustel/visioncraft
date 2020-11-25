@@ -54,22 +54,33 @@
       <option name="presentableId" value="Default" />
       <updated>1606245258560</updated>
       <workItem from="1606245260339" duration="6287000" />
-      <workItem from="1606320840563" duration="12269000" />
+      <workItem from="1606320840563" duration="13889000" />
     </task>
+    <task id="LOCAL−00001" summary="readme">
+      <created>1606334258541</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1606334258541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1867" y="568" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606321476457">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
     <state x="1867" y="568" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2836.1556@0.0.2836.1556" timestamp="1606321476457" />
-    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2" timestamp="1606333926018">
+    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2" timestamp="1606334257992">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
-    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2/0.0.2836.1556@0.0.2836.1556" timestamp="1606333926018" />
+    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2/0.0.2836.1556@0.0.2836.1556" timestamp="1606334257992" />
     <state x="1635" y="423" key="SettingsEditor" timestamp="1606327359394">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
