@@ -4,10 +4,11 @@ import {UserEntity} from './user.entity';
 import {UserService} from './user.service';
 import {UserRepository} from './user.repository';
 import {UserController} from './user.controller';
+import {UserFactory} from './user.factory';
 
 @Module({
     imports: [TypeOrmModule.forFeature([UserEntity])],
-    providers: [UserService, UserRepository],
+    providers: [UserService, UserRepository, UserFactory],
     controllers: [UserController],
     exports: [UserService],
 })

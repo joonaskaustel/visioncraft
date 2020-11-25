@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf13cd10-f877-4ec2-bfae-c3a8ef4f9f0d" name="Default Changelist" comment="" />
+    <list default="true" id="bf13cd10-f877-4ec2-bfae-c3a8ef4f9f0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1kkWq0oekaXU9Tr2yZuENqf9264" />
@@ -21,15 +24,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/views" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\dev\visioncraft\front\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\dev\visioncraft\api\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\visioncraft\front\src\views" />
+      <recent name="C:\dev\visioncraft\front\src\views\register" />
+      <recent name="C:\dev\visioncraft\api\src\auth\dto" />
+      <recent name="C:\dev\visioncraft\api\src\auth" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\visioncraft\front\src\views" />
       <recent name="C:\dev\visioncraft\api\src\user" />
     </key>
   </component>
@@ -41,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606245258560</updated>
-      <workItem from="1606245260339" duration="6135000" />
+      <workItem from="1606245260339" duration="6287000" />
+      <workItem from="1606320840563" duration="11859000" />
     </task>
     <servers />
   </component>
@@ -49,9 +62,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1867" y="568" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606321476457">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1867" y="568" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2836.1556@0.0.2836.1556" timestamp="1606321476457" />
     <state x="1740" y="277" width="1046" height="999" key="CommitChangelistDialog2" timestamp="1606245468847">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
     <state x="1740" y="277" width="1046" height="999" key="CommitChangelistDialog2/0.0.2836.1556@0.0.2836.1556" timestamp="1606245468847" />
+    <state x="1635" y="423" key="SettingsEditor" timestamp="1606327359394">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1635" y="423" key="SettingsEditor/0.0.2836.1556@0.0.2836.1556" timestamp="1606327359394" />
+    <state x="1720" y="510" key="Vcs.Push.Dialog.v2" timestamp="1606251543387">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1720" y="510" key="Vcs.Push.Dialog.v2/0.0.2836.1556@0.0.2836.1556" timestamp="1606251543387" />
+    <state x="1838" y="353" width="577" height="849" key="find.popup" timestamp="1606332773057">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1838" y="353" width="577" height="849" key="find.popup/0.0.2836.1556@0.0.2836.1556" timestamp="1606332773057" />
+    <state x="1929" y="667" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606251446872">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1929" y="667" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2836.1556@0.0.2836.1556" timestamp="1606251446872" />
+    <state x="1783" y="373" key="run.anything.popup" timestamp="1606331430535">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1783" y="373" key="run.anything.popup/0.0.2836.1556@0.0.2836.1556" timestamp="1606331430535" />
   </component>
 </project>

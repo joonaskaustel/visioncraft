@@ -3,6 +3,14 @@ import {IsEmail, IsNotEmpty, IsString, Length, MinLength, ValidateIf} from 'clas
 export class RegisterUserDto {
     @IsString()
     @IsNotEmpty()
+    firstName: string;
+
+    @IsString()
+    @IsNotEmpty()
+    lastName: string;
+
+    @IsString()
+    @IsNotEmpty()
     @IsEmail()
     email: string;
 
