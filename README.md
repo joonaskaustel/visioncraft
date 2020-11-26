@@ -1,7 +1,5 @@
 # Visioncraft
 
-todo add env files
-
 ### Guide
 ```bash
 run docker command first to set up db
