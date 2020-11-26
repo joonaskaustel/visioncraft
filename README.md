@@ -8,7 +8,7 @@ then setup api and frontend
 
 ### Database
 ```bash
-$ docker run --name visioncraft -p 3306:3306 -e POSTGRES_PASSWORD=hv -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=visioncraft -d mysql
+$ docker run --name visioncraft -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=visioncraft -d mysql
 ```
 Tables generated automatically by orm
 
