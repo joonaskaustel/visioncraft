@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf13cd10-f877-4ec2-bfae-c3a8ef4f9f0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\dev\visioncraft\api\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\dev\visioncraft\front\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606245258560</updated>
       <workItem from="1606245260339" duration="6287000" />
-      <workItem from="1606320840563" duration="14252000" />
+      <workItem from="1606320840563" duration="14275000" />
+      <workItem from="1606415933780" duration="6589000" />
     </task>
     <task id="LOCAL−00001" summary="readme">
       <created>1606334258541</created>
@@ -61,7 +63,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1606334258541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="readme">
+      <created>1606336222891</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1606336222891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,22 +84,26 @@
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
     <state x="1867" y="568" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2836.1556@0.0.2836.1556" timestamp="1606321476457" />
-    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2" timestamp="1606334257992">
+    <state x="1858" y="528" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606416577963">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
-    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2/0.0.2836.1556@0.0.2836.1556" timestamp="1606334257992" />
+    <state x="1858" y="528" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2836.1556@0.0.2836.1556" timestamp="1606416577963" />
+    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2" timestamp="1606336222415">
+      <screen x="0" y="0" width="2836" height="1556" />
+    </state>
+    <state x="1441" y="300" width="1046" height="999" key="CommitChangelistDialog2/0.0.2836.1556@0.0.2836.1556" timestamp="1606336222415" />
     <state x="1635" y="423" key="SettingsEditor" timestamp="1606327359394">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
     <state x="1635" y="423" key="SettingsEditor/0.0.2836.1556@0.0.2836.1556" timestamp="1606327359394" />
-    <state x="1720" y="510" key="Vcs.Push.Dialog.v2" timestamp="1606251543387">
+    <state x="1720" y="510" key="Vcs.Push.Dialog.v2" timestamp="1606336226534">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
-    <state x="1720" y="510" key="Vcs.Push.Dialog.v2/0.0.2836.1556@0.0.2836.1556" timestamp="1606251543387" />
-    <state x="1838" y="353" width="577" height="849" key="find.popup" timestamp="1606332773057">
+    <state x="1720" y="510" key="Vcs.Push.Dialog.v2/0.0.2836.1556@0.0.2836.1556" timestamp="1606336226534" />
+    <state x="1838" y="353" width="577" height="849" key="find.popup" timestamp="1606416045023">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>
-    <state x="1838" y="353" width="577" height="849" key="find.popup/0.0.2836.1556@0.0.2836.1556" timestamp="1606332773057" />
+    <state x="1838" y="353" width="577" height="849" key="find.popup/0.0.2836.1556@0.0.2836.1556" timestamp="1606416045023" />
     <state x="1929" y="667" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606251446872">
       <screen x="0" y="0" width="2836" height="1556" />
     </state>

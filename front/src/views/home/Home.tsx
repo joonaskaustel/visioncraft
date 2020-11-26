@@ -2,6 +2,7 @@ import React from "react";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Button, Grid} from "@material-ui/core";
 import {useHistory} from "react-router-dom";
+import {LocalUserInterface} from "../../interfaces/localUser.interface";
 
 const gridStyles = makeStyles((theme) => ({
     root: {
@@ -25,7 +26,7 @@ export default function Home() {
         signedIn = JSON.parse(localUser);
     }
 
-    const redirect = (loc: string) => {
+    const redirect = (loc: 'login' | 'register') => {
         history.push(`/${loc}`);
     }
 

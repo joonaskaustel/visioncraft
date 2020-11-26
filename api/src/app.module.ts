@@ -1,10 +1,9 @@
 import {Module} from '@nestjs/common';
-import {AppController} from './app.controller';
-import {AppService} from './app.service';
 import {TypeOrmModule} from '@nestjs/typeorm';
 import {UserEntity} from './user/user.entity';
 import {AuthModule} from './auth/auth.module';
 import {UserModule} from './user/user.module';
+import {ConfigModule} from '@nestjs/config';
 
 @Module({
     imports: [
@@ -20,9 +19,12 @@ import {UserModule} from './user/user.module';
         }),
         AuthModule,
         UserModule,
+        ConfigModule.forRoot({
+            envFilePath: '.env',
+        }),
     ],
-    controllers: [AppController],
-    providers: [AppService],
+    controllers: [],
+    providers: [],
 })
 export class AppModule {
 }

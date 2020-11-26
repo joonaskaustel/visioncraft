@@ -8,7 +8,6 @@ import {UserResponseDto} from './dto/user.response.dto';
 
 @Injectable()
 export class UserService{
-    private alias = 'u';
 
     constructor(
         @InjectRepository(UserEntity)
@@ -21,7 +20,7 @@ export class UserService{
         return this.usersRepository.findOne({ email });
     }
 
-    async registerUser(body: RegisterUserDto) {
+    async registerUser(body: RegisterUserDto): Promise<UserResponseDto> {
         // check if email aready exhists
         const userExists = await this.findOneByEmail(body.email);
 

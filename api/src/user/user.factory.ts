@@ -9,7 +9,7 @@ export class UserFactory {
         newUser.firstName = user.firstName;
         newUser.lastName = user.lastName;
         newUser.email = user.email;
-        newUser.password = await argon2.hash(user.password);
+        newUser.password = await argon2.hash(user.password); // secret, salt etc should be also added for secure system
 
         return newUser;
     }

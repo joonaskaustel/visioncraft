@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Button, Grid, TextField} from "@material-ui/core";
 import {useFormik} from "formik";
@@ -29,7 +29,9 @@ export default function Login() {
     const history = useHistory();
     const gridClasses = gridStyles();
     const formClasses = formStyles();
-    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const apiUrl: string = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+
+    const [error, setError] = useState(false);
 
     const formik = useFormik({
         initialValues: {
@@ -37,10 +39,16 @@ export default function Login() {
             password: '',
         },
         onSubmit: async (values) => {
-            const response = await axios.post(`${apiUrl}/auth/login`, {...values});
-            localStorage.setItem('user', JSON.stringify(response.data));
-            history.push('/home')
-        },
+            axios.post(`${apiUrl}/auth/login`, {...values})
+                .then((res) => {
+                    if (res.status === 201) {
+                        localStorage.setItem('user', JSON.stringify(res.data));
+                        history.push('/home')
+                    }
+                }).catch((err) => {
+                    setError(true);
+            });
+        }
     });
 
     return (
@@ -53,17 +61,23 @@ export default function Login() {
                           onSubmit={formik.handleSubmit}
                     >
                         <TextField
+                            error={error}
                             id="email"
                             label="Email"
+                            name="email"
                             onChange={formik.handleChange}
                             value={formik.values.email}
+                            helperText={error ? 'Invalid credentials' : undefined}
                         />
                         <TextField
+                            error={error}
                             id="password"
                             label="Password"
                             type="password"
+                            name="password"
                             onChange={formik.handleChange}
                             value={formik.values.password}
+                            helperText={error ? 'Invalid credentials' : undefined}
                         />
                         <Button variant="contained" color="primary" type="submit">
                             Login

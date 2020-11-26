@@ -14,8 +14,6 @@ export class AuthService {
     ) {
     }
 
-    private readonly JWT_SECRET_KEY = 'VERY_SECRET_KEY'; // TODO env
-
     async login(body: LoginDto): Promise<LoginResponseDto> {
         // find user with email
         const userExists = await this.userService.findOneByEmail(body.email);
